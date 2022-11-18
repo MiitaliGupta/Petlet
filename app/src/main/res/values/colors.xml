@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="P_DarkPurple">#381742</color>
+    <color name="P_LightPurple">#421c4f</color>
+    <color name="P_Yellow">#ffb951</color>
+    <color name="Button">#ffb951</color>
+    <color name="P_orange">#da652f</color>
+
+    <color name="color_primary">@color/P_LightPurple</color>
+    <color name="color_primary_dark">@color/P_DarkPurple</color>
+    <color name="color_accent">@color/P_Yellow</color>
+    <color name="semi_transparent">#66000000</color>
+
+
+    <color name="mediumEmphasisTextColor">#99000000</color>
+    <color name="highEmphasisTextColor">#de000000</color>
+    <color name="recyclerViewItemSelectionColor">#50FF4081</color>
+
+
+    <color name="A_DarkOrange">#E6B072</color>
+    <color name="A_Orange">#F3CEA5</color>
+    <color name="A_OffWhite">#EEEDEC</color>
+    <color name="bg">#10071D</color>
+    <color name="textbox">#222D39</color>
+
+</resources>

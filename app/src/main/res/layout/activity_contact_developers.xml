@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/P_DarkPurple"
+    tools:context=".ContactDevelopers">
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingBottom="@dimen/_50sdp"
+            android:background="@color/P_DarkPurple">
+
+
+            <ImageView
+                android:id="@+id/mitaliicon"
+                android:layout_width="@dimen/_150sdp"
+                android:layout_height="@dimen/_150sdp"
+                android:layout_marginTop="@dimen/_56sdp"
+                android:background="@color/P_DarkPurple"
+                android:contentDescription="maps-icon"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/mitspic" />
+            <TextView
+                android:id="@+id/mname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_15sdp"
+                android:fontFamily="serif"
+                android:gravity="center"
+                android:text="Mitali Gupta"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_20ssp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.089"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/mitaliicon" />
+            <LinearLayout
+                android:id="@+id/l3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_20sdp"
+                app:layout_constraintTop_toBottomOf="@id/mname"
+                android:gravity="center">
+            <ImageView
+                android:id="@+id/mgmail"
+                android:layout_width="@dimen/_50sdp"
+                android:layout_height="@dimen/_55sdp"
+                android:background="@color/P_DarkPurple"
+                app:layout_constraintStart_toStartOf="@+id/parent"
+                app:layout_constraintTop_toBottomOf="@+id/mitaliicon"
+                app:srcCompat="@drawable/gmail" />
+
+                <ImageView
+                    android:id="@+id/mgithub"
+                    android:layout_width="@dimen/_45sdp"
+                    android:layout_height="@dimen/_45sdp"
+                    android:layout_marginStart="@dimen/_30sdp"
+                    android:background="@color/P_DarkPurple"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toEndOf="@+id/mgmail"
+                    app:layout_constraintTop_toBottomOf="@+id/mitaliicon"
+                    app:srcCompat="@drawable/github" />
+
+            <ImageView
+                android:id="@+id/mlinkedin"
+                android:layout_width="@dimen/_45sdp"
+                android:layout_height="@dimen/_45sdp"
+                android:layout_marginStart="@dimen/_30sdp"
+                android:background="@color/P_DarkPurple"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toEndOf="@+id/mgmail"
+                app:layout_constraintTop_toBottomOf="@+id/mitaliicon"
+                app:srcCompat="@drawable/linkedin" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/aboutBackBtn"
+                android:layout_width="@dimen/_200sdp"
+                android:layout_height="@dimen/_45sdp"
+                android:layout_marginTop="@dimen/_50sdp"
+                android:textColor=" #381742"
+                app:backgroundTint="#ffb951"
+                android:text="Back"
+                android:textSize="@dimen/_18sdp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/l3" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

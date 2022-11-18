@@ -1,0 +1,63 @@
+<resources>
+    <string name="app_name">Petlet</string>
+    <string name="welcome_to_petlet">Welcome to Petlet</string>
+    <string name="let_s_go">Let\'s Go!</string>
+    <string name="enter_name">Enter your Name</string>
+    <string name="other">Other</string>
+    <string name="dogs">Dogs</string>
+    <string name="let_s_check_out_some_pets">Let\'s Check out some Pets!!!</string>
+    <string name="hi">Hi</string>
+    <string name="welcome_to_petlet1">Welcome to Petlet</string>
+    <string name="bg">bg</string>
+    <string name="try_something_cool">Contact Us</string>
+    <string name="title_activity_webview_demo">WebviewDemo</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="doctor1"><![CDATA[
+        <p><b>Name:</b> Dr. Suresh Ghule</p>
+        <p><b>Contact No.</b>: 9850547504</p>
+        <p><b>Email:</b> sureshghule@gmail.com</p>
+        <p>Class 3, Supervisor at Panchayat Samiti, Sangamner</p>
+    ]]></string>
+    <string name="doctor2"><![CDATA[
+        <p style="border: 1px solid black;"><b>Name:</b> Dr. Ghodke</p>
+        <p><b>Contact No.:</b> 9423388564</p>
+        <p><b>Email:</b> ravindraghodke@gmail.com</p>
+        <p>Class 2, Supervisor at Panchayat Samiti, Sangamner</p>
+    ]]></string>
+    <string name="nav_open">Open</string>
+    <string name="nav_close">Close</string>
+
+
+    <string name="new_profile">New Profile</string>
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+
+    <string name="delete_profile_dialog_title">Delete Profile</string>
+    <string name="delete_profile_dialog_message">This action cannot be undone</string>
+    <string name="delete_profile_dialog_positive_button">Delete</string>
+    <string name="delete_profile_dialog_negative_button">Cancel</string>
+
+    <string name="teit_error_text">This field is mandatory</string>
+    <string name="no_profiles">No Profiles</string>
+    <string name="add_a_profile_and_it_will_appear_here">Add a profile and it will appear here</string>
+    <string name="edit_profile">Edit Profile</string>
+
+    <string name="help_activity_action_bar_title">Help</string>
+    <string name="send_feedback">Email Us Your Doubts</string>
+
+    <string name="update_app_informative_text">A new version is available</string>
+    <string name="update_app_button_text">UPDATE</string>
+    <string name="banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>
+
+    <string name="copy_right" translatable="false">Copyrights © %1$d</string>
+    <string name="about_us_description">Petlet is a pet managing app</string>
+</resources>

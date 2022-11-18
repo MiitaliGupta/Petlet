@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/home"
+        android:title="Home"
+        android:icon="@drawable/home"/>
+    <item
+        android:id="@+id/doctor"
+        android:title="Vet"
+        android:icon="@drawable/doctor"/>
+    <item
+        android:id="@+id/animal"
+        android:title="Pets"
+        android:icon="@drawable/animal"/>
+    <item
+        android:id="@+id/contact"
+        android:title="ContactUs"
+        android:icon="@drawable/phone"/>
+</menu>

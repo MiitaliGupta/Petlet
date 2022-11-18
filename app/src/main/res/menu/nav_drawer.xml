@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="HardcodedText"
+    tools:showIn="navigation_view">
+
+    <item
+        android:id="@+id/nav_home"
+        android:title="Home"
+        android:icon="@drawable/home"/>
+    <item
+        android:id="@+id/nav_vet"
+        android:title="Vets"
+        android:icon="@drawable/doctor"/>
+
+    <item
+        android:id="@+id/nav_pet"
+        android:title="My Pets"
+        android:icon="@drawable/animal"/>
+    <item
+        android:id="@+id/nav_contact"
+        android:title="Contact Us"
+        android:icon="@drawable/phone"/>
+    <item
+        android:id="@+id/nav_about"
+        android:title="About Us"
+        android:icon="@drawable/about"/>
+
+    <item
+        android:id="@+id/nav_dev"
+        android:title="Developer"
+        android:icon="@drawable/dev"/>
+
+    <item
+        android:id="@+id/nav_logout"
+        android:title="Logout"
+        android:icon="@drawable/logout"/>
+
+</menu>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1027704743070",
+    "project_id": "petlet",
+    "storage_bucket": "petlet.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1027704743070:android:727f2c6cf231798069878f",
+        "android_client_info": {
+          "package_name": "com.example.petlet"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1027704743070-ihvdv3tvcvnii131edsiqrdet0krl49f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCUd4rgDbYqTEUhiNUc2c4b_chxJpWt7mM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1027704743070-ihvdv3tvcvnii131edsiqrdet0krl49f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

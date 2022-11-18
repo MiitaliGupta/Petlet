@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/P_DarkPurple"
+    tools:context=".MobileSignUp">
+
+
+    <ImageView
+        android:id="@+id/ell2"
+        android:layout_width="411dp"
+        android:layout_height="308dp"
+        android:background="@drawable/top"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.002" />
+
+    <TextView
+        android:id="@+id/imageView"
+        android:layout_width="208dp"
+        android:layout_height="61dp"
+        android:fontFamily="@font/almendra_sc"
+        android:text="Petlet"
+        android:textColor="@color/P_Yellow"
+        android:textSize="@dimen/_50ssp"
+        android:textStyle="bold"
+        android:layout_marginTop="160dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.084"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <TextView
+        android:id="@+id/signuptitle"
+        android:layout_width="185dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="92dp"
+        android:fontFamily="serif"
+        android:gravity="center"
+        android:text="Sign up"
+        android:textColor="@color/A_OffWhite"
+        android:textSize="40sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.07"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+
+    <EditText
+        android:id="@+id/countrycode"
+        android:layout_width="50dp"
+        android:layout_height="49dp"
+        android:layout_below="@id/signuptitle"
+        android:layout_marginEnd="10dp"
+        android:autofillHints="Mobile Number"
+        android:drawablePadding="20dp"
+        android:inputType="phone"
+        android:padding="10dp"
+        android:text="91"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="15sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/mobileout"
+        app:layout_constraintEnd_toStartOf="@+id/mobileout"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@id/resetbtn" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@id/mobileout"
+        android:layout_width="269dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:layout_below="@id/signuptitle"
+        android:layout_marginTop="88dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.795"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ell2" >
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/mobile"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Mobile Number"
+            android:inputType="phone"
+            android:padding="10dp"
+            android:textSize="15sp"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:layout_below="@id/signuptitle"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/resetbtn"
+        android:layout_width="325dp"
+        android:layout_height="49dp"
+        android:backgroundTint="@color/Button"
+        app:cornerRadius="15dp"
+        android:textColor="@color/P_DarkPurple"
+        android:layout_centerHorizontal="true"
+        android:layout_marginHorizontal="5dp"
+        android:layout_marginTop="36dp"
+        android:layout_weight="1"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="Sign Up"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mobileout" />
+
+    <TextView
+        android:id="@+id/info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/socialicons"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="Or"
+        android:textColor="@color/A_Orange"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/resetbtn" />
+
+    <LinearLayout
+        android:id="@+id/socialicons"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/resetbtn"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/info"
+        app:layout_constraintVertical_bias="0.168">
+
+        <ImageView
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_margin="20dp"
+            android:onClick="toEmailSignUp"
+            android:src="@drawable/google"
+            tools:ignore="ContentDescription" />
+
+<!--        <ImageView-->
+<!--            android:layout_width="55dp"-->
+<!--            android:layout_height="55dp"-->
+<!--            android:layout_margin="20dp"-->
+<!--            android:src="@drawable/fb"-->
+<!--            tools:ignore="ContentDescription" />-->
+
+<!--        <ImageView-->
+<!--            android:layout_width="55dp"-->
+<!--            android:layout_height="55dp"-->
+<!--            android:layout_margin="20dp"-->
+<!--            android:src="@drawable/twitter"-->
+<!--            tools:ignore="ContentDescription" />-->
+
+    </LinearLayout>
+    <ProgressBar
+        android:id="@+id/progressbar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:visibility="gone"
+        android:foregroundGravity="center"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

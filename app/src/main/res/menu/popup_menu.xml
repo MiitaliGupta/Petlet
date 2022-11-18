@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/goFront"
+        android:title="Front"/>
+
+    <item android:id="@+id/goBack"
+        android:title="Back"/>
+    <item android:id="@+id/goLogin"
+        android:title="Login"/>
+    <item android:id="@+id/goBlank"
+        android:title="Blank"/>
+</menu>

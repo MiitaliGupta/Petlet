@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/P_DarkPurple"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".MainActivity2">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintHeight_percent="100"
+            android:paddingBottom="100dp"
+            android:paddingTop="@dimen/_20sdp">
+
+
+<!--            <TextView-->
+<!--                android:id="@+id/name"-->
+<!--                android:layout_width="343dp"-->
+<!--                android:layout_height="38dp"-->
+<!--                android:layout_marginStart="15dp"-->
+<!--                android:layout_marginTop="16dp"-->
+<!--                android:fontFamily="@font/amarante"-->
+<!--                android:text=""-->
+<!--                android:textColor="@android:color/white"-->
+<!--                android:textSize="30sp"-->
+<!--                app:layout_constraintEnd_toEndOf="parent"-->
+<!--                app:layout_constraintHorizontal_bias="0.326"-->
+<!--                app:layout_constraintStart_toStartOf="parent"-->
+<!--                app:layout_constraintTop_toTopOf="parent" />-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/text1"-->
+<!--                android:layout_width="343dp"-->
+<!--                android:layout_height="38dp"-->
+<!--                android:layout_marginStart="15dp"-->
+<!--                android:fontFamily="@font/amarante"-->
+<!--                android:text="@string/let_s_check_out_some_pets"-->
+<!--                android:textColor="@android:color/white"-->
+<!--                android:textSize="25sp"-->
+<!--                app:layout_constraintEnd_toEndOf="parent"-->
+<!--                app:layout_constraintStart_toStartOf="parent"-->
+<!--                app:layout_constraintTop_toBottomOf="@+id/name" />-->
+
+
+            <TextView
+                android:id="@+id/dogname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/amarante"
+                android:text="@string/dogs"
+                android:textColor="#ffb951"
+                android:textSize="30sp"
+                android:layout_marginStart="5dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <HorizontalScrollView
+                android:id="@+id/dogs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.142"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/dogname">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/dog1"
+                        android:layout_width="160dp"
+                        android:layout_height="160dp"
+                        android:layout_marginStart="5dp"
+                        android:onClick="showPopUp"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:srcCompat="@drawable/dog1" />
+
+                    <ImageView
+                        android:id="@+id/dog2"
+                        android:layout_width="160dp"
+                        android:layout_height="160dp"
+                        android:layout_marginStart="15dp"
+                        app:layout_constraintStart_toEndOf="@+id/dog1"
+                        app:layout_constraintTop_toTopOf="@id/dog1"
+                        app:srcCompat="@drawable/dog2" />
+
+                    <ImageView
+                        android:id="@+id/dog3"
+                        android:layout_width="160dp"
+                        android:layout_height="160dp"
+                        android:layout_marginStart="15dp"
+                        android:contentDescription="TODO"
+                        app:layout_constraintStart_toEndOf="@+id/dog2"
+                        app:layout_constraintTop_toTopOf="@id/dog2"
+                        app:srcCompat="@drawable/dog3" />
+
+                    <ImageView
+                        android:id="@+id/dog4"
+                        android:layout_width="160dp"
+                        android:layout_height="160dp"
+                        android:layout_marginStart="15dp"
+                        android:contentDescription="TODO"
+                        app:layout_constraintStart_toEndOf="@+id/dog3"
+                        app:layout_constraintTop_toTopOf="@id/dog3"
+                        app:srcCompat="@drawable/dog4" />
+
+                    <ImageView
+                        android:id="@+id/dog5"
+                        android:layout_width="160dp"
+                        android:layout_height="160dp"
+                        android:layout_marginStart="15dp"
+                        app:layout_constraintStart_toEndOf="@+id/dog4"
+                        app:layout_constraintTop_toTopOf="@id/dog4"
+                        app:srcCompat="@drawable/dog5" />
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </HorizontalScrollView>
+
+            <TextView
+                android:id="@+id/catname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:fontFamily="@font/amarante"
+                android:text="Cats"
+                android:textColor="#ffb951"
+                android:textSize="30sp"
+                app:layout_constraintStart_toStartOf="@id/dogname"
+                app:layout_constraintTop_toBottomOf="@id/dogs" />
+
+            <HorizontalScrollView
+                android:id="@+id/cats"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.106"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/catname">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/cat2"
+                        android:layout_width="160dp"
+                        android:layout_height="160dp"
+                        android:layout_marginStart="5dp"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:srcCompat="@drawable/cat2" />
+
+                    <ImageView
+                        android:id="@+id/cat3"
+                        android:layout_width="160dp"
+                        android:layout_height="160dp"
+                        android:layout_marginStart="15dp"
+                        app:layout_constraintStart_toEndOf="@+id/cat2"
+                        app:layout_constraintTop_toTopOf="@id/cat2"
+                        app:srcCompat="@drawable/cat3" />
+
+                    <ImageView
+                        android:id="@+id/cat4"
+                        android:layout_width="160dp"
+                        android:layout_height="160dp"
+                        android:layout_marginStart="15dp"
+                        app:layout_constraintStart_toEndOf="@+id/cat3"
+                        app:layout_constraintTop_toTopOf="@id/cat3"
+                        app:srcCompat="@drawable/cat4" />
+
+                    <ImageView
+                        android:id="@+id/cat5"
+                        android:layout_width="160dp"
+                        android:layout_height="160dp"
+                        android:layout_marginStart="15dp"
+                        app:layout_constraintStart_toEndOf="@+id/cat4"
+                        app:layout_constraintTop_toTopOf="@id/cat4"
+                        app:srcCompat="@drawable/cat5" />
+
+                    <ImageView
+                        android:id="@+id/cat6"
+                        android:layout_width="160dp"
+                        android:layout_height="160dp"
+                        android:layout_marginStart="15dp"
+                        app:layout_constraintStart_toEndOf="@+id/cat5"
+                        app:layout_constraintTop_toTopOf="@id/cat5"
+                        app:srcCompat="@drawable/cat6" />
+
+                    <ImageView
+                        android:id="@+id/cat7"
+                        android:layout_width="160dp"
+                        android:layout_height="160dp"
+                        android:layout_marginStart="15dp"
+                        app:layout_constraintStart_toEndOf="@+id/cat6"
+                        app:layout_constraintTop_toTopOf="@id/cat6"
+                        app:srcCompat="@drawable/cat7" />
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </HorizontalScrollView>
+
+            <TextView
+                android:id="@+id/rabbitname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:layout_marginTop="16dp"
+                android:fontFamily="@font/amarante"
+                android:text="Rabbits"
+                android:textColor="#ffb951"
+                android:textSize="30sp"
+                app:layout_constraintStart_toStartOf="@id/catname"
+                app:layout_constraintTop_toBottomOf="@id/cats" />
+
+            <HorizontalScrollView
+                android:id="@+id/rabbits"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.096"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/rabbitname">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent">
+
+
+                    <ImageView
+                        android:id="@+id/rabbit1"
+                        android:layout_width="160dp"
+                        android:layout_height="160dp"
+                        android:layout_marginStart="4dp"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:srcCompat="@drawable/rabbit1" />
+
+                    <ImageView
+                        android:id="@+id/rabbit2"
+                        android:layout_width="145dp"
+                        android:layout_height="160dp"
+                        android:layout_marginStart="15dp"
+                        app:layout_constraintStart_toEndOf="@+id/rabbit1"
+                        app:layout_constraintTop_toTopOf="@id/rabbit1"
+                        app:srcCompat="@drawable/rabbit2" />
+
+                    <ImageView
+                        android:id="@+id/rabbit3"
+                        android:layout_width="160dp"
+                        android:layout_height="160dp"
+                        android:layout_marginStart="15dp"
+                        app:layout_constraintStart_toEndOf="@+id/rabbit2"
+                        app:layout_constraintTop_toTopOf="@id/rabbit2"
+                        app:srcCompat="@drawable/rabbit3" />
+
+                    <ImageView
+                        android:id="@+id/rabbit4"
+                        android:layout_width="160dp"
+                        android:layout_height="160dp"
+                        android:layout_marginStart="15dp"
+                        app:layout_constraintStart_toEndOf="@+id/rabbit3"
+                        app:layout_constraintTop_toTopOf="@id/rabbit3"
+                        app:srcCompat="@drawable/rabbit4" />
+
+                    <ImageView
+                        android:id="@+id/rabbit5"
+                        android:layout_width="160dp"
+                        android:layout_height="160dp"
+                        android:layout_marginStart="15dp"
+                        app:layout_constraintStart_toEndOf="@+id/rabbit4"
+                        app:layout_constraintTop_toTopOf="@id/rabbit4"
+                        app:srcCompat="@drawable/rabbit5" />
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </HorizontalScrollView>
+
+            <!--                <Button-->
+            <!--                    android:id="@+id/toastbtn"-->
+            <!--                    android:layout_width="wrap_content"-->
+            <!--                    android:layout_height="wrap_content"-->
+            <!--                    android:layout_marginTop="35dp"-->
+            <!--                    android:backgroundTint="#ffb951"-->
+            <!--                    android:gravity="center"-->
+            <!--                    android:onClick="contact"-->
+            <!--                    android:orientation="vertical"-->
+            <!--                    android:text="@string/try_something_cool"-->
+            <!--                    android:textColor="#381742"-->
+            <!--                    app:layout_constraintEnd_toEndOf="parent"-->
+            <!--                    app:layout_constraintStart_toStartOf="parent"-->
+            <!--                    app:layout_constraintTop_toBottomOf="@+id/rabbits" />-->
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+</FrameLayout>

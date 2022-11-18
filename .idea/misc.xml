@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Mitali/AndroidStudioProjects/petlet/app/src/main/res/drawable/buttonstyle.xml" value="0.1845" />
+        <entry key="..\:/Users/Mitali/AndroidStudioProjects/petlet/app/src/main/res/drawable/eye.xml" value="0.1845" />
+        <entry key="..\:/Users/Mitali/AndroidStudioProjects/petlet/app/src/main/res/drawable/gradient_drawable.xml" value="0.1845" />
+        <entry key="..\:/Users/Mitali/AndroidStudioProjects/petlet/app/src/main/res/drawable/gradientbutton.xml" value="0.1845" />
+        <entry key="..\:/Users/Mitali/AndroidStudioProjects/petlet/app/src/main/res/drawable/ic_copyright.xml" value="0.177" />
+        <entry key="..\:/Users/Mitali/AndroidStudioProjects/petlet/app/src/main/res/drawable/phone.xml" value="0.12" />
+        <entry key="..\:/Users/Mitali/AndroidStudioProjects/petlet/app/src/main/res/drawable/rounded_textbox.xml" value="0.1845" />
+        <entry key="..\:/Users/Mitali/AndroidStudioProjects/petlet/app/src/main/res/layout/activity_contact_developers.xml" value="0.25729166666666664" />
+        <entry key="..\:/Users/Mitali/AndroidStudioProjects/petlet/app/src/main/res/layout/activity_contact_us.xml" value="0.23072916666666668" />
+        <entry key="..\:/Users/Mitali/AndroidStudioProjects/petlet/app/src/main/res/layout/activity_details.xml" value="0.25729166666666664" />
+        <entry key="..\:/Users/Mitali/AndroidStudioProjects/petlet/app/src/main/res/layout/activity_feedback.xml" value="0.25729166666666664" />
+        <entry key="..\:/Users/Mitali/AndroidStudioProjects/petlet/app/src/main/res/layout/activity_help.xml" value="0.24166666666666667" />
+        <entry key="..\:/Users/Mitali/AndroidStudioProjects/petlet/app/src/main/res/layout/activity_main.xml" value="0.25729166666666664" />
+        <entry key="..\:/Users/Mitali/AndroidStudioProjects/petlet/app/src/main/res/layout/activity_main2.xml" value="0.25729166666666664" />
+        <entry key="..\:/Users/Mitali/AndroidStudioProjects/petlet/app/src/main/res/layout/activity_profiles.xml" value="0.25729166666666664" />
+        <entry key="..\:/Users/Mitali/AndroidStudioProjects/petlet/app/src/main/res/layout/color_spinner_layout.xml" value="0.25625" />
+        <entry key="..\:/Users/Mitali/AndroidStudioProjects/petlet/app/src/main/res/layout/content_profiles.xml" value="0.23541666666666666" />
+        <entry key="..\:/Users/Mitali/AndroidStudioProjects/petlet/app/src/main/res/layout/email_sign_up.xml" value="0.25729166666666664" />
+        <entry key="..\:/Users/Mitali/AndroidStudioProjects/petlet/app/src/main/res/layout/first_page.xml" value="0.25729166666666664" />
+        <entry key="..\:/Users/Mitali/AndroidStudioProjects/petlet/app/src/main/res/layout/forgotpwd.xml" value="0.25729166666666664" />
+        <entry key="..\:/Users/Mitali/AndroidStudioProjects/petlet/app/src/main/res/layout/fragment_animals.xml" value="0.20677083333333332" />
+        <entry key="..\:/Users/Mitali/AndroidStudioProjects/petlet/app/src/main/res/layout/fragment_pet.xml" value="0.25729166666666664" />
+        <entry key="..\:/Users/Mitali/AndroidStudioProjects/petlet/app/src/main/res/layout/fragment_setting.xml" value="0.23072916666666668" />
+        <entry key="..\:/Users/Mitali/AndroidStudioProjects/petlet/app/src/main/res/layout/login.xml" value="0.25729166666666664" />
+        <entry key="..\:/Users/Mitali/AndroidStudioProjects/petlet/app/src/main/res/layout/mobile_signup.xml" value="0.25729166666666664" />
+        <entry key="..\:/Users/Mitali/AndroidStudioProjects/petlet/app/src/main/res/layout/otp.xml" value="0.25729166666666664" />
+        <entry key="..\:/Users/Mitali/AndroidStudioProjects/petlet/app/src/main/res/layout/profile_fsd.xml" value="0.25729166666666664" />
+        <entry key="..\:/Users/Mitali/AndroidStudioProjects/petlet/app/src/main/res/layout/spinner_selected_item.xml" value="0.25729166666666664" />
+        <entry key="..\:/Users/Mitali/AndroidStudioProjects/petlet/app/src/main/res/menu/appbar.xml" value="0.24166666666666667" />
+        <entry key="..\:/Users/Mitali/AndroidStudioProjects/petlet/app/src/main/res/menu/bottom_nav_menu.xml" value="0.25729166666666664" />
+        <entry key="..\:/Users/Mitali/AndroidStudioProjects/petlet/app/src/main/res/menu/contextual_actionbar.xml" value="0.25729166666666664" />
+        <entry key="..\:/Users/Mitali/AndroidStudioProjects/petlet/app/src/main/res/menu/nav_drawer.xml" value="0.25729166666666664" />
+        <entry key="..\:/Users/Mitali/AndroidStudioProjects/petlet/app/src/main/res/menu/profiles_activity_options_menu.xml" value="0.24166666666666667" />
+        <entry key="..\:/Users/Mitali/AndroidStudioProjects/petlet/app/src/main/res/menu/profiles_avw.xml" value="0.24166666666666667" />
+        <entry key="..\:/Users/Mitali/AppData/Local/Android/Sdk/platforms/android-32/data/res/layout/simple_spinner_item.xml" value="0.25729166666666664" />
+        <entry key="..\:/Users/Mitali/Desktop/petlet versions/petlet FAB FRAGMENT/petlet/app/src/main/res/layout/fragment_pet.xml" value="0.25729166666666664" />
+        <entry key="..\:/Users/Mitali/Desktop/petlet versions/petlet FAB FRAGMENT/petlet/app/src/main/res/menu/profiles_activity_options_menu.xml" value="0.25729166666666664" />
+        <entry key="..\:/Users/Mitali/Desktop/petlet versions/petlet FAB FRAGMENT/petlet/app/src/main/res/menu/profiles_avw.xml" value="0.25729166666666664" />
+        <entry key="..\:/Users/vaibh/AndroidStudioProjects/petlet/app/src/main/res/layout/activity_details.xml" value="0.1" />
+        <entry key="..\:/Users/vaibh/AndroidStudioProjects/petlet/app/src/main/res/layout/activity_main2.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/vaibh/AndroidStudioProjects/petlet/app/src/main/res/layout/activity_profiles.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/vaibh/AndroidStudioProjects/petlet/app/src/main/res/layout/fragment_pet.xml" value="0.25416666666666665" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
